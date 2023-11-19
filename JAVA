@@ -1,0 +1,46 @@
+public class PLAYER  {
+  string name ;
+  short age ;
+  short rank ;
+
+ void pass () {
+ system.out.println(name +"Passing");
+ }
+ void shoot () {
+ system.out.println(name +"shooting");
+ }
+ void jump () {
+ system.out.println(name +"jumping");
+ }
+§§§§§§§§§§§§§§§§§§
+public class CAR  {
+  string name ;
+  string color ;
+  short speed ;
+  
+
+ void start () {
+ system.out.println(name +"starting");
+ }
+ void stop () {
+ system.out.println(name +"stoping");
+ }
+ void changegear () {
+ system.out.println(name +"changing gear");
+ }
+§§§§§§§§§§§§§§§§§
+public class MOBILE  {
+  string name ;
+  long serialname ;
+  short storage ;
+  
+
+ void call () {
+ system.out.println(name +"is calling");
+ }
+ void send () {
+ system.out.println(name +"is sending a msg");
+ }
+ void play () {
+ system.out.println(name +"playing a media");
+ }
