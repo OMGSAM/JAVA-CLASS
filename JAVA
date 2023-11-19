@@ -12,7 +12,16 @@ public class PLAYER  {
  void jump () {
  system.out.println(name +"jumping");
  }
-§§§§§§§§§§§§§§§§§§
+public class Main {
+public static void man (string[] args) {
+PLAYER firstplayer = New player() ;
+firstplayer.name="AYMAN";
+firstplayer.age=30;
+firstplayer.rank=1;
+firstplayer.pass();
+
+///////////////////////////////////
+ 
 public class CAR  {
   string name ;
   string color ;
@@ -28,7 +37,19 @@ public class CAR  {
  void changegear () {
  system.out.println(name +"changing gear");
  }
-§§§§§§§§§§§§§§§§§
+
+
+public class Main {
+public static void man (string[] args) {
+CAR firstcar = New car() ;
+firstcar.name="AUDI";
+firstcar.speed=300;
+firstplayer.color="YELLOW";
+firstcar.start();
+firstcar.stop();
+
+///////////////////////////////////////////////
+
 public class MOBILE  {
   string name ;
   long serialname ;
@@ -44,3 +65,12 @@ public class MOBILE  {
  void play () {
  system.out.println(name +"playing a media");
  }
+
+public class Main {
+public static void man (string[] args) {
+MOBILE firstmobile = New mobile() ;
+firstmobile.name="NOKIA";
+firstmobile.serial=55555;
+firstmobile.storage="25";
+firstmobile.send();
+firstmobile.play();
